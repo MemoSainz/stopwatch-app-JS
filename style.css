@@ -1,0 +1,160 @@
+html {
+	font-family: 'Cascadia Code', 'Ubuntu';
+	/* background-color: #131516; */
+	color: azure;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	/* background-color: ; */
+
+	background-image: url(background2.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	margin: 0;
+}
+
+#myH1 {
+	font-size: 4rem;
+	color: hsl(39, 77%, 83%);
+	backdrop-filter: blur(3.5px);
+	background-color: #464545c4;
+	width: 500px;
+	border: 5px solid;
+	border-color: whitesmoke;
+	border-radius: 15%;
+}
+
+#container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 30px;
+	border: 5px solid;
+	border-radius: 50px;
+	background-color: #464545c4;
+}
+
+#display {
+	font-size: 5rem;
+	/* font-family: monospace; */
+	font-weight: bold;
+	color: cornflowerblue;
+	text-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.659);
+	margin-bottom: 25px;
+}
+
+#controls button {
+	font-size: 1.5rem;
+	font-weight: bold;
+	font-family: 'Ubuntu';
+	padding: 10px 20px;
+	margin: 5px;
+	min-width: 125px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+	color: wheat;
+}
+
+#startBtn {
+	background-color: #4caf50;
+	transition: background-color 0.9s ease;
+	transform: scale(1);
+	transition: all 1s ease;
+}
+#startBtn:hover {
+	background-color: hsl(122, 39%, 59%);
+	transition: background-color 0.9s ease;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+#startBtn:active {
+	background-color: hsl(122, 24%, 100%);
+	transform: scale(0.5);
+	transition: all 1s ease;
+}
+/*  */
+#stopBtn {
+	background-color: hsl(10, 70%, 45%);
+	transition: background-color 0.9s ease;
+	transform: scale(1);
+	transition: all 1s ease;
+}
+#stopBtn:hover {
+	background-color: hsl(10, 90%, 60%);
+	transition: background-color 0.9s ease;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+#stopBtn:active {
+	background-color: hsl(122, 24%, 100%);
+	transform: scale(0.5);
+	transition: all 1s ease;
+}
+/*  */
+#resetBtn {
+	background-color: cornflowerblue;
+	transition: background-color 0.9s ease;
+	transform: scale(1);
+	transition: all 1s ease;
+}
+#resetBtn:hover {
+	background-color: hsl(219, 79%, 75%);
+	transition: background-color 0.9s ease;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+#resetBtn:active {
+	background-color: hsl(122, 24%, 100%);
+	transform: scale(0.5);
+	transition: all 1s ease;
+}
+
+button[type='github'] {
+	font-family: 'ubuntu';
+	font-size: 14px;
+	vertical-align: middle;
+
+	padding: 3px 8px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+	transition: background-color 0.4s ease;
+	transform: scale(1);
+	transition: all 1s ease;
+}
+button[type='github']:hover {
+	transition: background-color 0.9s ease;
+	background-color: #af4c9d;
+	transform: scale(1.1);
+	transition: all 1s ease;
+}
+button[type='github']:active {
+	background-color: hsla(199, 80%, 90%, 0.86);
+}
+.footer {
+	background-color: #303030;
+	color: #fff;
+	clear: both;
+	font-family: 'ubuntu';
+
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	border-width: 30%;
+}
+.img00 {
+	vertical-align: middle;
+	width: 22px;
+}
